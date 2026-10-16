@@ -1,12 +1,17 @@
 
-print("Welcome to My Student Study Planner!")
+print("=" * 35)
+print("      STUDENT STUDY PLANNER")
+print("=" * 35)
 
 name = input("Enter your name: ")
-subject = input("Enter the subject you want to study: ")
-hours = input("How many hours will you study today? ")
+subject = input("Enter the subject to study: ")
+hours = input("How many hours will you study? ")
 
-print("\n--- Your Study Plan ---")
+print("\n------ YOUR STUDY PLAN ------")
 print("Student:", name)
 print("Subject:", subject)
-print("Study hours:", hours)
-print("Keep learning and do your best!")
+print("Study duration:", hours, "hours")
+print("Tip: Take short breaks while studying.")
+print("Good luck with your studies!")
+
+print("=" * 35)
